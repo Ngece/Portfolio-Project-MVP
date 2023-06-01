@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="Logo/Logo.png" alt="Logo">
+    </div>
+    <div class="tabs">
+      <div class="tab active" data-target="school">Register a School</div>
+      <div class="tab" data-target="student">Register as Student</div>
+      <div class="tab" data-target="teacher">Register as Teacher</div>
+      <div class="tab" data-target="parent">Register as Parent</div>
+    </div>
+    
+    <div class="registration-forms">
+      <form id="school" class="registration-form">
+        <div class="form-group">
+          <label for="schoolName">School Name:</label>
+          <input type="text" id="schoolName" name="schoolName" placeholder="Enter school name">
+          <label for="schoolAddress">School Address:</label>
+          <input type="text" id="schoolAddress" name="schoolAddress" placeholder="Enter school address">
+          <label for="schoolName">School Category:</label>
+          <input type="text" id="schoolCategory" name="schoolCategory" placeholder="Enter school category">
+          <label for="schoolName">School Email:</label>
+          <input type="email" id="SchoolEmail" class="email" name="schoolEmail" placeholder="Enter school email" >
+          <label for="schoolName">School Contact:</label>
+          <input type="text" id="schoolContact" name="schoolContact" placeholder="Enter school contact">
+        </div>
+        <!-- Add more school-specific fields here -->
+        <div class="form-group">
+          <button type="submit">Register as School</button>
+        </div>
+      </form>
+      
+      <form id="student" class="registration-form">
+        <div class="form-group">
+          <label for="studentName">Student Name:</label>
+          <input type="text" id="studentName" name="studentName" placeholder="Enter student name">
+          <label for="studentSurname">Student Surname:</label>
+          <input type="text" id="studentSurname" name="studentSurname" placeholder="Enter student surname">
+          <label for="studentSchool">Student School:</label>
+          <input type="text" id="studentSchool" name="studentSchool" placeholder="Enter name of school">
+          <label for="studentDoB">Student Date of Birth:</label>
+          <input type="text" id="studentDoB" name="studentDoB" placeholder="Enter student date of birth">
+          <label for="studentGender">Gender:</label>
+          <input type="text" id="studentGender" name="studentGender" placeholder="Example: Male or Female">
+          <label for="studentRace">Race:</label>
+          <input type="text" id="studentRace" name="studentRace" placeholder="Example: African, White, Indian, Asian">
+          <label for="studentEmail">Student Email:</label>
+          <input type="email" id="studentEmail" class="email" name="studentEmail" placeholder="example: yoyo@example.com">
+          <label for="studentContact">Student Contact:</label>
+          <input type="text" id="studentContact" name="studentContact" placeholder="Enter student contact number">
+          <label for="studentAddress">Student Address:</label>
+          <input type="text" id="studentAddress" name="studentAddress" placeholder="Enter student home address">
+          <label for="studentGrade">Student grade or level of education:</label>
+          <input type="text" id="studentGrade" name="studentGrade" placeholder="Enter student grade">
+          <label for="parentName">Parent Name:</label>
+          <input type="text" id="parentName" name="parentName" placeholder="Enter parent name">
+        </div>
+        <!-- Add more student-specific fields here -->
+        <div class="form-group">
+          <button type="submit">Register as Student</button>
+        </div>
+      </form>
+      
+      <form id="teacher" class="registration-form">
+        <div class="form-group">
+          <label for="teacherName">Teacher Name:</label>
+          <input type="text" id="teacherName" name="teacherName" placeholder="Enter teacher name">
+          <label for="teacherSurname">Teacher Surname:</label>
+          <input type="text" id="teacherSurname" name="teacherSurname" placeholder="Enter teacher surname">
+          <label for="teacherSchool">Teacher School:</label>
+          <input type="text" id="teacherSchool" name="teacherSchool" placeholder="Enter name of school">
+          <label for="teacherDoB">Teacher Date of Birth:</label>
+          <input type="text" id="teacherDoB" name="teacherDoB" placeholder="Enter teacher date of birth">
+          <label for="teacherGender">Gender:</label>
+          <input type="text" id="teacherGender" name="teacherGender" placeholder="Example: Male or Female">
+          <label for="teacherRace">Race:</label>
+          <input type="text" id="teacherRace" name="teacherRace" placeholder="Example: African, White, Indian, Asian">
+          <label for="teacherEmail">Teacher Email:</label>
+          <input type="email" id="teacherEmail" class="email" name="teacherEmail" placeholder="example: yoyo@example.com">
+          <label for="teacherContact">Teacher Contact:</label>
+          <input type="text" id="teacherContact" name="teacherContact" placeholder="Enter teacher contact number">
+          <label for="teacherAddress">Teacher Address:</label>
+          <input type="text" id="teacherAddress" name="teacherAddress" placeholder="Enter teacher home address">
+        </div>
+        <!-- Add more teacher-specific fields here -->
+        <div class="form-group">
+          <button type="submit">Register as Teacher</button>
+        </div>
+      </form>
+      
+      <form id="parent" class="registration-form">
+        <div class="form-group">
+          <label for="parentName">Parent Name:</label>
+          <input type="text" id="parentName" name="parentName" placeholder="Enter teacher name">
+          <label for="parentSurname">Parent Surname:</label>
+          <input type="text" id="parentSurname" name="parentSurname" placeholder="Enter teacher surname">
+          <label for="parentSchool">Parent School:</label>
+          <input type="text" id="parentSchool" name="parentSchool" placeholder="Enter name of school">
+          <label for="parentDoB">Parent Date of Birth:</label>
+          <input type="text" id="parentDoB" name="parentDoB" placeholder="Enter teacher date of birth">
+          <label for="parentGender">Gender:</label>
+          <input type="text" id="parentGender" name="parentGender" placeholder="Example: Male or Female">
+          <label for="parentRace">Race:</label>
+          <input type="text" id="parentRace" name="parentRace" placeholder="Example: African, White, Indian, Asian">
+          <label for="parentEmail">Parent Email:</label>
+          <input type="email" id="parentEmail" class="email" name="parentEmail" placeholder="example: yoyo@example.com">
+          <label for="parentContact">Parent Contact:</label>
+          <input type="text" id="parentContact" name="parentContact" placeholder="Enter teacher contact number">
+          <label for="parentAddress">Parent Address:</label>
+          <input type="text" id="parentAddress" name="parentAddress" placeholder="Enter teacher home address">
+        </div>
+        <!-- Add more parent-specific fields here -->
+        <div class="form-group">
+          <button type="submit">Register as Parent</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <script src="javascript/register.js"></script>
+  
+  <footer>
+    <p>© 2023 School Planet. All rights reserved.</p>
+  </footer>
+</body>
+</html>
